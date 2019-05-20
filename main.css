@@ -7,13 +7,15 @@ body {
     margin: 0px;
 }
 nav {
-    background-color: #08605F;
+    background-color: rgb(18, 116, 114);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 40px;
+    overflow: hidden;
 }
+
 ul { 
     list-style-type: none;
     margin: 0px;
@@ -22,16 +24,20 @@ li {
     display: inline;
     padding-right: 30px;
     font-size: 16px;
+    color: white;
     font-family: 'Vollkorn', serif;
+    text-decoration: none;
 }
+
 li a{
     color: white;
+    text-decoration: none;
 }
 li a:hover {
     cursor: pointer;
     color: rgb(240, 170, 90);
     
-}
+}  
 
 header {
     background-image: url(images/hikingtrail2.jpg);
@@ -66,7 +72,6 @@ h4 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 25px;
-    padding-top: 20px;
     font-family: 'Unica One', cursive;
    
 }
@@ -92,6 +97,7 @@ h4 {
 }
 #project1 {
     background-color: #8E936D;
+    color: #fdfdfd;
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -101,10 +107,22 @@ h4 {
 a img:hover {
     border: 5px solid rgb(240, 170, 90);
 }
-
+button {
+    background-color: #8E936D;
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+    border: none;
+    padding: 5px;
+    line-height: 120%;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
 footer {
     background-color: #598381;
     color: white;
+    
 }
 p {
     font-size: 18px;
