@@ -2,51 +2,151 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
+    margin: 0px;
 }
 nav {
-    background-color: darkgray;
+    background-color: #08605F;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-  
+    height: 40px;
+}
+ul { 
+    list-style-type: none;
+    margin: 0px;
+}
+li {
+    display: inline;
+    padding-right: 30px;
+    font-size: 16px;
+    font-family: 'Vollkorn', serif;
+}
+li a{
+    color: white;
+}
+li a:hover {
+    cursor: pointer;
+    color: rgb(240, 170, 90);
+    
+}
+
+header {
+    background-image: url(images/hikingtrail2.jpg);
+    background-size: cover;
+}
+h1 {
+    padding-top: 20px;
+    color: #fdfdfd;
+    
+    font-size: 48px;
+    font-family: 'Unica One', cursive;
+    
+    
 }
 
 h2 {
-    background-color: darkgray;
-    font-size: 32px;
+    background-color: #598381;
+    font-size: 33px;
+    color: #fdfdfd;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Unica One', cursive;
+    
 }
 h3 {
-    font-size: 25px;
+    color: #fdfdfd;
+    font-size: 30px;
+    font-family: 'Unica One', cursive;
 }
-
-section {
-    padding: 10%;
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Unica One', cursive;
+   
 }
 
 .headshot {
-    background-color: #aaa;
-    width: 200px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 200px;
 }
 
-.aboutMe {
-    background-color: lightgray;
+
+#aboutMe {
+    background-color: #8E936D;
     font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: rgb(81, 117, 81);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 150%;
 }
-.project1 {
-    background-color: #aaa;
+.officeScreenShot {
+    width: 250px;
+    height: 400px;
+}
+#project1 {
+    background-color: #8E936D;
     font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Vollkorn', serif;
 }
+
+a img:hover {
+    border: 5px solid rgb(240, 170, 90);
+}
+
 footer {
-    background-color: rgb(80, 78, 78);
+    background-color: #598381;
+    color: white;
 }
 p {
     font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(81, 117, 81);
+    font-family: 'Vollkorn', serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 150%;
+}
+p a {
+    color: black;
+}
+a:hover {
+    color: rgb(240, 170, 90);
+}
+@media screen and (min-width: 700px) {
+   
+    #aboutMe {
+        padding-left: 200px;
+        padding-right: 200px;
+        font-size: 20px;
+    }
+    #project1 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .officeScreenShot {
+        width: 400px;
+        height: 550px;
+    }
+
+  
 }
 
+@media screen and (min-width: 1110px) {
+    #project1 {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
