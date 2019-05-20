@@ -4,28 +4,40 @@
         <title>portfolio
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Unica+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
-        <nav role="navigation">Nav Bar</nav>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#aboutMe">About (me)</a></li>
+                <li><a href="#project1">Projects (by me)</a></li>
+                <li><a href="#contactMe">Contact (me)</a></li>
+            </ul>
+        </nav>
         <main role="main">
             <header role="banner">
                 <h1>Hi, I'm Tarin.</h1>
-                <img src="images/TarinPrattSmall.jpg" alt="Tarin Pratt Headshot">
+                <img class="headshot" src="images/TarinPrattSmall.jpg" alt="Tarin Pratt Headshot">
                 <h2>I'm an aspiring web developer in Phoenix, Arizona.</h2>
             </header>
-            <section class="aboutMe">Currently, I am an enrolled student in the Full Stack Flex bootcamp at Thinkful. After 10 fulfilling years performing as a professional dancer in Los Angeles, I decided to broaden my passion for creating and witnessing work come to life by entering the world of technology and learning how to code. So far I have experience with HTML, CSS, JavaScript, and am looking forward to learning more. When I’m not transfixed by my dog or my computer screen, you can find me out and about, jamming to live music, hiking, taking yoga, or trying to be discreet about how much cheese I’m devouring at a wine bar.</section>
-            <section class="project1">
-            <a href="https://tarinpratt.github.io/quiz-app/" target="_blank"><img src="images/OfficeQuizApp.jpg" alt="The Officw Quiz App"></a>
-            <p>The Office Quiz app is an interactive app built using JavaScript that tests your knowledge of the hit TV series "The Office.”</p>
+            <section id="aboutMe">Currently, I am an enrolled student in the Full Stack Flex bootcamp at Thinkful. After 10 fulfilling years performing as a professional dancer in Los Angeles, I decided to broaden my passion for creating and witnessing work come to life by entering the world of technology and learning how to code. So far I have experience with HTML, CSS, JavaScript, and am looking forward to learning more. When I’m not transfixed by my dog or my computer screen, you can find me out and about, jamming to live music, hiking, taking yoga, or trying to be discreet about how much cheese I’m devouring at a wine bar.</section>
+            <section id="project1">
+                <h3>Take a peek at my creations!</h3>
+                    <a href="https://tarinpratt.github.io/quiz-app/" target="_blank"><img class="officeScreenShot" src="images/office2.jpg" alt="The Office Quiz App"></a>
+                        <p>The Office Quiz app is an interactive app built using JavaScript that tests your knowledge of the hit TV series "The Office.”</p>
             </section>
         </main>
         <footer role="content-info">
-            <h3>Contact Me!</h3>
+            <section id="contactMe"></section>
+            <h4>Contact Me!</h4>
             <p><a href="mailto:pratttarin@yahoo.com?" target="_blank">pratttarin@yahoo.com</a></p>
             <a class="linkedin" href="https://www.linkedin.com/in/tarin-pratt-501462186/" target="_blank"><img src="images/linkedinlogo.jpg"></a>
             <a class="github" href="https://github.com/tarinpratt/" target="_blank"><img src="images/githublogo.jpg" alt="github logo"></a>
+            </section>
         </footer>
     </body>
 </html>
