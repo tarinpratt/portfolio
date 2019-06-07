@@ -155,6 +155,7 @@ a:hover {
     color: white;
 }
 
+<<<<<<< HEAD
 .repo {
     padding-bottom: 20px;
 }
@@ -166,6 +167,8 @@ a:hover {
     }
 }
 
+=======
+>>>>>>> 5f288792b11392dedd899e5b835a2b843b6a5a0d
 @media screen and (min-width: 700px) {
    
     #aboutMe {
@@ -184,7 +187,10 @@ a:hover {
         width: 550px;
         height: 700px;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5f288792b11392dedd899e5b835a2b843b6a5a0d
 }
 
 @media screen and (min-width: 1110px) {
