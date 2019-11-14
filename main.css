@@ -92,13 +92,15 @@ h4 {
   } */
 
 .mediGenda {
-    height: 550px;
+    height: 400px;
     width: 400px;
+    display: block;
 }
 
 .costlessCreatives {
-    height: 550px;
+    height: 400px;
     width: 400px;
+    display: block;
 }
 
 .officeScreenShot {
