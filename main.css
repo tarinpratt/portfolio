@@ -34,7 +34,7 @@ li a{
 }
 li a:hover {
     cursor: pointer;
-    color: rgb(240, 170, 90);
+    color: rgb(236, 218, 113);
 }  
 
 header {
@@ -84,13 +84,6 @@ h4 {
     line-height: 150%;
 }
 
-/* .responsive {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    border-radius: 20px;
-  } */
-
 .mediGenda {
     margin-left: auto;
     margin-right: auto;
@@ -133,7 +126,7 @@ h4 {
 }
 
 a img:hover {
-    border: 5px solid rgb(240, 170, 90);
+    border: 5px solid rgb(236, 218, 113);
 }
 button {
     background-color: #8E936D;
@@ -169,7 +162,7 @@ p a {
     color: black;
 }
 a:hover {
-    color: rgb(240, 170, 90);
+    color: rgb(236, 218, 113);
 }
 .linkedin{
     color: white;
