@@ -84,7 +84,12 @@ h4 {
     line-height: 150%;
 }
 
-.mediGenda .costlessCreatives {
+.mediGenda {
+    height: 550px;
+    width: 400px;
+}
+
+.costlessCreatives {
     height: 550px;
     width: 400px;
 }
