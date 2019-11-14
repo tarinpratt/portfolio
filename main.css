@@ -92,12 +92,16 @@ h4 {
   } */
 
 .mediGenda {
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
     width: 400px;
     display: block;
 }
 
 .costlessCreatives {
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
     width: 400px;
     display: block;
