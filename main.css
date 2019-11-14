@@ -84,6 +84,13 @@ h4 {
     line-height: 150%;
 }
 
+.responsive {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+  }
+
 .mediGenda {
     height: 550px;
     width: 400px;
