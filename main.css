@@ -182,11 +182,10 @@ a:hover {
 }
 
 .repo {
-    margin-top: 10px;
-}
-
-.repo {
+    margin-top: 20px;
     padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 620px){
