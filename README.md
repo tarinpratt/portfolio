@@ -1,2 +1,3 @@
 # **Portfolio**
-This is my professional portfolio with any projects I've made from scratch.
+Tarin Pratt's professional portfolio.
+[Live Demo](https://tarinpratt.github.io/portfolio/)
