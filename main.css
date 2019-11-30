@@ -70,6 +70,13 @@ h4 {
 }
 
 .headshot {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    /* border-radius: 20px; */
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 200px;
 }
 
